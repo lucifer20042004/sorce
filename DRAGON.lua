@@ -949,11 +949,11 @@ local keyboard = {
 {'ضع اسم للبوت','معلومات الكيبورد'},
 {'المطور','الاحصائيات'},
 {'مطور البوت'},
-{'• ━━━━━━❪الاقسام❫━━━━━━ •'},
+{'• ━━━━━━❪DEV_VAMBAIR🇮🇹❫━━━━━━ •'},
 {'قـسم الـسورس','قـسم مـسح&اضـف'},
 {'قـسم تـفعيل&تـعطيل','قـسم الـحمايه'},
 {'قـسم الاذاعـه'},
-{'• ━━━━━━❪الركن الاخير❫━━━━━━ •'},
+{'• ━━━━━━❪𝘿𝙀𝙑 𝙇𝙐𝘾𝙄𝙁𝙀𝙍 🇮🇹❫━━━━━━ •'},
 {'جلب المشتركين','جلب النسخه'},
 {'جلب المطورين','جلب التوكن'},
 {'تحديث السورس ','الاصدار'},
@@ -1299,27 +1299,27 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/vagwg/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪الركن الاخير❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪DEV_VAMBAIR🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
-[قناه سورس ايفيل ادخل وتابع الجديد](t.me/SOURCE_EVEL)
+[DEV_VAMBAIR🇮🇹](t.me/SOURCE_EVEL)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '00:00', url="t.me/SOURCE_EVEL"}}, 
+{{text = '00:00', url="t.me/DEV_VAMBAIR"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪الاقسام❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪𝘿𝙀𝙑 𝙇𝙐𝘾𝙄𝙁𝙀𝙍 🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
-[قناه سورس ايفيل ادخل وتابع الجديد](t.me/SOURCE_EVEL)
+[ 𝘿𝙀𝙑 𝙇𝙐𝘾𝙄𝙁𝙀𝙍 🇮🇹 ](t.me/LLucifeerr)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '00:00', url="t.me/SOURCE_EVEL"}}, 
+{{text = '00:00', url="t.me/LLucifeerr"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/12&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -1399,7 +1399,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_EVEL"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "ضع اسم للبوت" and DevSoFi(msg) then  
@@ -3097,7 +3097,7 @@ local TWEET_Msg = {
 "أجمل شيء حصل معك خلال هذا الاسبوع ؟ ", 
 "سؤال ينرفزك ؟ ", 
 " هل يعجبك سورس ايفيل؟؟ ", 
-" اكثر ممثل تحبه ؟ ", 
+" ليه القناويه جدعان؟ ", 
 "قد تخيلت شي في بالك وصار ؟ ", 
 "شيء عندك اهم من الناس ؟ ", 
 "تفضّل النقاش الطويل او تحب الاختصار ؟ ", 
@@ -3738,7 +3738,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_EVEL"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '☩━━━━━☩ᴱᵛᴱᴸ☩━━━━━☩' then
 local Text = [[ 
@@ -6928,7 +6928,7 @@ send(msg.chat_id_, msg.id_, ' ⋆ تم مسح المنظفين')
 end
 if text == ("المنظفين") and BasicConstructor(msg) then
 local list = database:smembers(bot_id..'S00F4:MN:TF'..msg.chat_id_)
-t = "\n ⋆ قائمة المنظفين \n━━━━━━𝓓??𝓖━━━━━━\n"
+t = "\n ⋆ قائمة المنظفين \n━━━━━━𝓓𝓡𝓖━━━━━━\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -13869,12 +13869,12 @@ local List = {
 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
 ]],
 [[
-🇪🇬≪💎≫ #username • メ
-🇪🇬≪💎≫ #stast  •メ
-🇪🇬≪💎≫ #id  • メ
-🇪🇬≪💎≫ #msgs  •メ
-🇪🇬≪💎≫ #game •メ
-🇪🇬𝗖𝗛 - 「@SOURCE_EVEL」 💞.
+🇧🇪≪💎≫ #username • メ
+🇧🇪≪💎≫ #stast  •メ
+🇧🇪≪💎≫ #id  • メ
+🇧🇪≪💎≫ #msgs  •メ
+🇧🇪≪💎≫ #game •メ
+🇧🇪𝗖𝗛 - 「@SOURCE_EVEL」 💞.
 ]],
 [[
  𝚄𝚂𝙴𝚁 𓄹𓄼 #username
@@ -13954,12 +13954,12 @@ local List = {
 ]],
 [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 - 𝚄𝚂𝙴𝚁 ⟿ #username 💘.
-🇪🇬 - 𝙼𝚂𝙶𝚂 ⟿  #msgs 💘.
-🇪🇬 - 𝙶𝙼𝙰𝚂 ⟿ #stast 💘.
-🇪🇬 - 𝙸𝙳 𝚂𝚃𝙰 ⟿ #id 💘.  
+🇮🇹 - 𝚄𝚂𝙴𝚁 ⟿ #username 💘.
+🇮🇹 - 𝙼𝚂𝙶𝚂 ⟿  #msgs 💘.
+🇮🇹 - 𝙶𝙼𝙰𝚂 ⟿ #stast 💘.
+🇮🇹 - 𝙸𝙳 𝚂𝚃𝙰 ⟿ #id 💘.  
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 - 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
+🇮🇹 - 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
 ]],
 [[
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
@@ -14014,12 +14014,12 @@ local List = {
 ]],
 [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 ꙰  - 𝚞 𝚜𝚎 𝚛 ➟ #username  ❃.
-🇪🇬 ꙰  - 𝚖 𝚜𝚐 𝚜 ➟ #msgs ❃.
-🇪🇬 ꙰  - 𝚐 𝚖 𝚊𝚜  ➟ #stast ❃.
-🇪🇬 ꙰  - 𝙸𝙳 𝚜𝚝𝚊   ➟ #id ❃.
+🖕🏿 ꙰  - 𝚞 𝚜𝚎 𝚛 ➟ #username  ❃.
+🖕🏿 ꙰  - 𝚖 𝚜𝚐 𝚜 ➟ #msgs ❃.
+🖕🏿 ꙰  - 𝚐 𝚖 𝚊𝚜  ➟ #stast ❃.
+🖕🏿 ꙰  - 𝙸𝙳 𝚜𝚝𝚊   ➟ #id ❃.
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 ꙰  - 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
+🖕🏿 ꙰  - 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
 ]],
 [[
 🌯 ¦✙• 𝐮𝐬𝐞𝐫𝒏𝒂𝒎𝒆 ➢ ⁞  #username 🇪🇬
@@ -14264,11 +14264,11 @@ local List = {
 • 𝗖𝗛 - 「@SOURCE_EVEL」 💞.
 ]],
 [[
-𝐘𝐨𝐮𝐫 𝐈𝐃 ☤🇪🇬- #id 
-𝐔𝐬𝐞𝐫𝐍𝐚☤🇪🇬- #username 
-𝐒𝐭𝐚𝐬𝐓 ☤🇪🇬- #stast 
-𝐌𝐬𝐠𝐒☤🇪🇬 - #msgs
-𝗖𝗛☤🇪🇬 - 「@SOURCE_EVEL」 ⋆.
+𝐘𝐨𝐮𝐫 𝐈𝐃 ☤🇲🇽- #id 
+𝐔𝐬𝐞𝐫𝐍𝐚☤🇲🇽- #username 
+𝐒𝐭𝐚𝐬𝐓 ☤🕸- #stast 
+𝐌𝐬𝐠𝐒☤🇲🇽 - #msgs
+𝗖𝗛☤🇲🇽 - 「@SOURCE_EVEL」 ⋆.
 ]],
 [[
 ⭐️𝖘𝖙𝖆 : #stast ـ🍭
@@ -14292,12 +14292,12 @@ local List = {
 • 𝗖𝗛 - 「@SOURCE_EVEL」 💞.
 ]],
 [[
-🇪🇬 - 𝄬 𝐔ˢᴱᴿᴺᴬᴹᴱ . #username  𓃠
-🇪🇬 - 𝄬 ˢᵀᴬˢᵀ . #stast  𓃠
-🇪?? - 𝄬 ᴵᴰ . #id 𓃠
-🇪🇬 - 𝄬 ᴳᴹᴬˢ . #gmas 𓃠
-🇪🇬 - 𝄬 ᴹˢᴳˢ . #msgs  𓃠
-🇪🇬 - 𝄬 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
+🕸 - 𝄬 𝐔ˢᴱᴿᴺᴬᴹᴱ . #username  𓃠
+🕸 - 𝄬 ˢᵀᴬˢᵀ . #stast  𓃠
+🕸 - 𝄬 ᴵᴰ . #id 𓃠
+🕸 - 𝄬 ᴳᴹᴬˢ . #gmas 𓃠
+🕸 - 𝄬 ᴹˢᴳˢ . #msgs  𓃠
+🕸 - 𝄬 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
 ]],
 [[
 𓄼🇪🇬 𝑼𝒔𝒆𝒓𝑵𝒂𝒎𝒆 : #username ♕
