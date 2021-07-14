@@ -2990,7 +2990,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = ' :̤̈DEV_VAMBAIR',url="t.me/DEV_VAMBAIR"}},
 {{text = ':̤̈DEV LUCIFER:', url="t.me/LLucifeerr"}},
-{{text = ':̤̈ 𝐓W𝐀𝐒𝐎𝐋:',url="t.me/TWASOLSOON"}}, 
+{{text = ':̤̈ 𝐓W𝐀𝐒𝐎𝐋:',url="t.me/TWASOL7_bot"}}, 
 {{text = '00:00', url="t.me/SOURCE_EVEL"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -13843,7 +13843,7 @@ local List = {
 ]],
 [[
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
-- 𓏬 ??𝐬𝐆  : #msgs 𓂅 .
+- 𓏬 𝐌𝐬𝐆  : #msgs 𓂅 .
 - 𓏬 𝐒𝐭𝐀 : #stast 𓂅 .
 - 𓏬 𝐈𝐃 : #id 𓂅 .
 ]],
