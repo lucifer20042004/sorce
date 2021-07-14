@@ -2966,11 +2966,11 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
-[★W𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐔𝐑𝐂𝐄 𝐄𝐕𝐄𝐋★](t.me/SOURCE_EVEL) 
+[🇮🇹W𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐔𝐑𝐂𝐄 𝐄𝐕𝐄𝐋🇮🇹](t.me/SOURCE_EVEL) 
 
 [⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝙾𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝚃𝙴𝙻𝙴 ](t.me/SOURCE_EVEL)
 
-[⍟ مرحبا بك في سورس ايفل الاعظم★](t.me/SOURCE_EVEL)
+[🇮🇹 مرحبا بك في سورس ايفل الاعظم🇮🇹](t.me/SOURCE_EVEL)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -2979,7 +2979,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_EVEL"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
 local Text = [[
@@ -2992,7 +2992,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_EVEL"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/vagwg/29&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'المبرمج' or text == 'كساحه' or text == 'لوسيفر' then
@@ -3006,7 +3006,7 @@ keyboard.inline_keyboard = {
 {{text = ':̤̈DEV LUCIFER:',url="t.me/LLucifeerr"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/vagwg/11&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/10&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'فامبير' or text == 'DEV_VAMBAIR' or text == 'المبرمج' then
@@ -3019,7 +3019,7 @@ keyboard.inline_keyboard = {
 {{text = ' DEV_VAMBAIR',url="t.me/DEV_VAMBAIR"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/OSDDR&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == 'تواصل السورس ' or text == 'بوت التواصل' or text == 'التواصل' then
 local Text = [[
@@ -3031,7 +3031,7 @@ keyboard.inline_keyboard = {
 {{text = ':̤̈𝐓W𝐀𝐒𝐎𝐋',url="t.me/TWASOL7_bot"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Xxx_ksomk_xxX&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_EVEL/11&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == 'يوتيوب' or text == 'بحث' or text == 'اليوتيوب' then
 local Text = [[
@@ -3085,7 +3085,7 @@ local TWEET_Msg = {
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه باندا جدع؟ ", 
+"ليه لوسيفر جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
@@ -12963,7 +12963,7 @@ if not my_ph then
 send(msg.chat_id_, msg.id_,"  ") 
 return false  
 end
-send(msg.chat_id_,msg.id_, '[انت الي حلو ياقمر..♥️??](t.me/SOURCE_EVEL)')
+send(msg.chat_id_,msg.id_, '[انت الي حلو ياقمر..♥️🦋](t.me/SOURCE_EVEL)')
 return false
 end
 
@@ -13950,7 +13950,7 @@ local List = {
 ► 𝗖𝗛 - 「@SOURCE_EVEL」 ⋆.
 ]],
 [[
--›   𝚄𝚂𝙴𝚁𝙽??𝙼𝙴 . #username 🇪🇬 ꙰ 
+-›   𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 . #username 🇪🇬 ꙰ 
 -›   𝚂𝚃𝙰𝚂𝚃 . #stast 🇪🇬 ꙰
 -›   𝙸𝙳 . #id 🇪🇬 ꙰ 
 -›   𝙶𝙼𝙰𝚂 . #stast 🇪🇬 ꙰ 
