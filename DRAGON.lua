@@ -336,7 +336,7 @@ var = database:get(bot_id.."Mod:Rd"..msg.chat_id_) or 'الادمن عم الن�
 elseif database:sismember(bot_id..'Special:User'..chat_id, user_id) then  
 var = database:get(bot_id.."Special:Rd"..msg.chat_id_) or 'المميز حبيبي الكل'  
 else  
-var = database:get(bot_id.."Memp:Rd"..msg.chat_id_) or 'الـعـضو الكميل🌚'
+var = database:get(bot_id.."Memp:Rd"..msg.chat_id_) or 'عضو قد الدنيا'
 end  
 return var
 end 
