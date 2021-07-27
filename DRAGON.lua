@@ -306,7 +306,7 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1223908266) then  
-var = 'بويـكـا القـمد'
+var = 'المطــ ــــور حـ ـربــ ـوكــ ـا'
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = 'DEV LUCIFER'
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -1306,18 +1306,18 @@ keyboard.inline_keyboard = {
 {{text = '7ᴿᴮᴼᴷᴬ', url="t.me/DvH7rboka_A3"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁 🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
-[ 𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹](t.me/LLucifeerr)
+[𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹](t.me/LLucifeerr)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁', url="t.me/LLucifeerr"}}, 
+{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹', url="t.me/LLucifeerr"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -3397,7 +3397,7 @@ local TWEET_Msg = {
 "‏من علامات جمال المرأة .. بختها المايل ! ",
 "‏ انك الجميع و كل من احتل قلبي🫀🤍",
 "‏ ‏ لقد تْعَمقتُ بكَ كَثيراً والمِيمُ لام .♥️",
-"‏ ‏ممكن اكون اختارت غلط بس والله حبيت بجد🖇️",
+"‏ ‏ممكن اكون اختارت غلط بس والله حبيت بجد??️",
 "‏ علينا إحياء زَمن الرّسائل الورقيّة وسط هذه الفوضى الالكترونية العَارمة. ⋆💜",
 "‏ يجي اي الصاروخ الصيني ده جمب الصاروخ المصري لما بيلبس العبايه السوده.🤩♥️",
 "‏ كُنت أرقّ من أن أتحمّل كُل تلك القَسوة من عَينيك .🍍",
@@ -13953,7 +13953,7 @@ local List = {
 🇮🇹 - 𝚄𝚂𝙴𝚁 ⟿ #username 💘.
 🇮🇹 - 𝙼𝚂𝙶𝚂 ⟿  #msgs 💘.
 🇮🇹 - 𝙶𝙼𝙰𝚂 ⟿ #stast 💘.
-🇮🇹 - 𝙸𝙳 ??𝚃𝙰 ⟿ #id 💘.  
+🇮🇹 - 𝙸𝙳 𝚂𝚃𝙰 ⟿ #id 💘.  
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 🇮🇹 - 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
 ]],
