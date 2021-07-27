@@ -3005,7 +3005,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'حربي' or text == 'حربوكا' or text == 'ببوالا' or text == 'مبرمج السورس' or text == 'االبوالا or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس' then
+if text == 'حربي' or text == 'حربوكا' or text == 'ببوالا' or text == 'مبرمج السورس' or text =='البوالا' or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس' then
 local Text = [[
 المطور حربوكا لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
