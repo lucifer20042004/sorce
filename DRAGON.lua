@@ -137,14 +137,13 @@ end
 _redis = load_redis()  
 --------------------------------------------------------------------------------------------------------------
 print([[
-
  __     __     ______     __         ______  
 /\ \  _ \ \   /\  __ \   /\ \       /\  ___\ 
 \ \ \/  .\ \  \ \ \/\ \  \ \ \____  \ \  __\ 
  \ \__/ .~\_\  \ \_____\  \ \_____\  \ \_\   
   \/_/   \/_/   \/_____/   \/_____/   \/_/   
-  
-  
+                                             
+
 > CH › 「@SOURCE_WOOLF」
 ~> DEVELOPER › @LLucifeerr 
 ]])
@@ -306,10 +305,10 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1804978483) then  
+if tonumber(user_id) == tonumber(1223908266) then  
+var = 'بويـكـا القـمد'
+elseif tonumber(user_id) == tonumber(1804978483) then
 var = 'DEV LUCIFER'
-elseif tonumber(user_id) == tonumber(1223908266) then
-var = 'الــ مــطــ ـــور حـــ ــــربــ ـــي'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -337,7 +336,7 @@ var = database:get(bot_id.."Mod:Rd"..msg.chat_id_) or 'الادمن عم الن�
 elseif database:sismember(bot_id..'Special:User'..chat_id, user_id) then  
 var = database:get(bot_id.."Special:Rd"..msg.chat_id_) or 'المميز حبيبي الكل'  
 else  
-var = database:get(bot_id.."Memp:Rd"..msg.chat_id_) or 'الـعـضو الجميل'
+var = database:get(bot_id.."Memp:Rd"..msg.chat_id_) or 'عضو قد الدنيا'
 end  
 return var
 end 
@@ -872,7 +871,7 @@ send(msg.chat_id_, msg.id_," ⋆ تمت الاذاعه الى *~ "..#list.." ~* 
 database:del(bot_id.."Bc:Grops:Pin" .. msg.chat_id_ .. ":" .. msg.sender_user_id_) 
 return false
 end
-------by-banda--
+------by-Lucifer--
 if Chat_Type == 'UserBot' then
 if not DevSoFi(msg) then
 if text == '/start' or text == 'العوده✨'  then  
@@ -948,11 +947,11 @@ local keyboard = {
 {'ضع اسم للبوت','معلومات الكيبورد'},
 {'المطور','الاحصائيات'},
 {'مطور البوت'},
-{'• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •'},
+{'• ━━━━━━❪7ᴿᴮᴼᴷᴬ🇮🇹❫━━━━━━ •'},
 {'قـسم الـسورس','قـسم مـسح&اضـف'},
 {'قـسم تـفعيل&تـعطيل','قـسم الـحمايه'},
 {'قـسم الاذاعـه'},
-{'• ━━━━━━❪7ᴿᴮᴼᴷᴬ🇮🇹❫━━━━━━ •'},
+{'• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •'},
 {'جلب المشتركين','جلب النسخه'},
 {'جلب المطورين','جلب التوكن'},
 {'تحديث السورس ','الاصدار'},
@@ -1296,26 +1295,26 @@ keyboard.inline_keyboard = {
 {{text = 'مطورين السورس⚙', url="t.me/wWoOlLfF_wolf"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/vagwg/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '• ━━━━━━❪7ᴿᴮᴼᴷᴬ🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
-[ المطور حربوكا لو حابب تتواصل معاه](t.me/@DvH7rboka_A3)
+[7ᴿᴮᴼᴷᴬ🇮🇹](t.me/DvH7rboka_A3)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '7ᴿᴮᴼᴷᴬ', url="t.me/@DvH7rboka_A3"}}, 
+{{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁 🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
-[المبرمج لوسيفر لو حابب تتواصل معاه](t.me/LLucifeerr)
+[ 𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹](t.me/LLucifeerr)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁', url="t.me/LLucifeerr"}}, 
+{{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1324,7 +1323,7 @@ if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
 [CH](t.me/SOURCE_WOOLF)مرحبا بك مطوري سأشرح لك كل شئ في لوحه الاوامر بالتفصيل
-1• الاحصائيات { لعرض عدد المجموعات، والمشتركين في البوت
+1• الاحصائيات { لعرض عدد المجموعات، والمشتركين في البوت}
  2• تفعيل التواصل{ لتفعيل التواصل عبر البوت خاص بك} 
  3• تعطيل التواصل{ لتعطيل التواصل عبر البوت خاص بك } 
  4• قائمه العام { لعرض المحظورين عام في البوت }
@@ -1340,7 +1339,7 @@ local Text = [[
 16• تنظيف المشتركين { يمكنك ازاله المشتركين الوهمين عبر هل امر }
 17• تنظيف الجروبات { يمكن ازاله المجموعات الوهميه عبر عل امر }
 18• جلب نسخه احتياطيه { لعرض ملف المجموعات بوتك }
-19• تحديث السورس { لتحديث السورس خاص بوتك 
+19• تحديث السورس { لتحديث السورس خاص بوتك}
 20• الغاء { للغاء الامر الذي طلبته }
 ]] 
 keyboard = {}  
@@ -1367,7 +1366,20 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁', url="t.me/LLucifeerr"}}, 
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ ', url="t.me/LLucifeerr"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+if text == 'بويكا مبرمج السورس' and DevSoFi(msg) then
+database:del(bot_id..'Srt:Bot') 
+local Text = [[ 
+「المبرمج بويكا لو حابب تتواصل معاه
+اتبع الزر إلى تحت ↓」
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ', url="t.me/DvH7rboka_A3"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1375,7 +1387,7 @@ end
 if text == 'قناه السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
- ⋆ من أحسن السورسات على التليجرام سورس ولف⋆
+ ⋆ من أحسن السورسات على التليجرام سورس وٌلُـ‘ـُفُـ‘ـُ⋆
 بجد سورس أمان جدا وفي مميزات جامده
 تع نصب بوتك عندنا لو محظور
 خش على تواصل هيدخلك لروم التواصل 
@@ -1385,7 +1397,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "ضع اسم للبوت" and DevSoFi(msg) then  
@@ -2950,7 +2962,7 @@ end
 end
 end,nil)   
 end
-if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'يا سورس' then
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
 [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF) 
 
@@ -2965,57 +2977,57 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
 local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DvH7rboka_A3"}},
-{{text = 'TWASOL',url="t.me/TWASOL7_bot"}}, 
-{{text = '00:00', url="t.me/SOURCE_WOOLF"}},
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/LLucifeerr"},{text = ':̤̈ᴅᴇᴠᴇʟᴏᴘᴇʀ', url="t.me/DvH7rboka_A3"}},
+{{text = '00:00',url="t.me/SOURCE_WOOLF"},{text = '𝚝W𝚊𝚜𝚘𝚕', url="t.me/TWASOL7_bot"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'لوسيفر' or text == 'كساحه' or text == 'مبرمج السورس' then
+if text == 'المبرمج' or text == 'كساحه' or text == 'لوسيفر' then
 local Text = [[
-المبرمج لوســــــ ــــــيفر 
-لو عايز تتواصل معاه اتبع الزر الي تحت🔽
+المبرمج لوسيفر لو حابب تتواصل معاه
+اتبع الزر إلى تحت ↓
+
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"}},
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/LLucifeerr"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'تواصل' or text == 'التواصل' or text == 'تواصل السورس' then
+if text == 'حربي' or text == 'حربوكا' or text == 'ببوالا or text == 'مبرمج السورس' or text == 'االبوالا or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس'  then
 local Text = [[
-بوت التواصل🔽
+المطور حربوكا لو حابب تتواصل معاه
+اتبع الزر إلى تحت ↓
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'TWASOL',url="t.me@TWASOL7_bot"}},
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/12&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-
-if text == 'حربوكا' or text == 'حربي' or text == 'بوالا' then
-local Text = [[
-مطــــ ـــــور الســـــ ـــــورس حـ ــ ــربـــــ ـوكا
-
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/DvH7rboka_A3"}},
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/DvH7rboka_A3"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+end
+if text == 'تواصل ' or text == 'بوت التواصل' or text == 'التواصل' then
+local Text = [[
+  تواصل السورس لو حابب تتواصل معاه
+اتبع الزر إلى تحت ↓
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '𝚝W𝚊𝚜𝚘𝚕',url="t.me/TWASOL7_bot"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/11&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == 'يوتيوب' or text == 'بحث' or text == 'اليوتيوب' then
 local Text = [[
@@ -3025,7 +3037,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'بوت اليوتيوب 🇲🇦',url="t.me/Qeaa_bot"}},
+{{text = 'بوت اليوتيوب 🇲🇦',url="t.me/Youtubee_bbot"}},
 {{text = 'بوت تيك توك 🏴‍☠️',url="t.me/K0XBOT"}},
 {{text = 'بوت انستقرام 🎌',url="t.me/J33Bot"}},
 {{text = 'بوت قران 🏳️',url="t.me/quran_lbot"}},
@@ -3066,7 +3078,7 @@ local TWEET_Msg = {
 "ليه انت مش سالك", 
 "ما هيا عيوب سورس ولف؟ ", 
 "اخر كتاب قرآته", 
-"روايتك المفضله ?", 
+"لي حربي جدع ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
 "ليه لوسيفر جدع؟ ", 
@@ -3081,7 +3093,7 @@ local TWEET_Msg = {
 "أجمل شيء حصل معك خلال هذا الاسبوع ؟ ", 
 "سؤال ينرفزك ؟ ", 
 " هل يعجبك سورس ولف؟؟ ", 
-" اكثر ممثل تحبه ؟ ", 
+" ليه القناويه جدعان؟ ", 
 "قد تخيلت شي في بالك وصار ؟ ", 
 "شيء عندك اهم من الناس ؟ ", 
 "تفضّل النقاش الطويل او تحب الاختصار ؟ ", 
@@ -3153,7 +3165,6 @@ local TWEET_Msg = {
 "آخر مره ضربت عشره كانت متى ؟", 
 "اسم دايم ع بالك ؟ ", 
 "اشياء تفتخر انك م سويتها ؟ ", 
-"لي حربي جدع؟ ",
 " لو بكيفي كان ؟ ", 
   "أكثر جملة أثرت بك في حياتك؟ ",
   "إيموجي يوصف مزاجك حاليًا؟ ",
@@ -3169,7 +3180,6 @@ local TWEET_Msg = {
   "اكبر غلطة بعمرك؟ ",
   "نسبة النعاس عندك حاليًا؟ ",
   "شرايكم بمشاهير التيك توك؟ ",
-"لي حربي نايك بوسكا",
   "ما الحاسة التي تريد إضافتها للحواس الخمسة؟ ",
   "اسم قريب لقلبك؟ ",
   "مشتاق لمطعم كنت تزوره قبل الحظر؟ ",
@@ -3350,7 +3360,7 @@ local TWEET_Msg = {
   "انسان م تحب تتعامل معاه ابداً ؟ ",
   "شيء بسيط تحتفظ فيه؟ ",
   "فُرصه تتمنى لو أُتيحت لك ؟ ",
-   "لي لوسيفر ناك جوكر الفاجر؟ ",
+   "لي لوسيفر ناك اليكس؟ ",
   "شيء مستحيل ترفضه ؟. ",
   "لو زعلت بقوة وش بيرضيك ؟ ",
   "تنام بـ اي مكان ، ولا بس غرفتك ؟ ",
@@ -3377,35 +3387,6 @@ local TWEET_Msg = {
   "كم عددكم بالبيت؟ ",
   "عادي تتزوج من برا القبيلة؟ ",
   "أجمل شي بحياتك وش هو؟ ",
-} 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
-return false 
-end
-if text == "باد" or text == "باد" or text == "bad" then 
-local TWEET_Msg = { 
-"نكت بنت كام مره🥵؟ ",
-"جبتهم كام مره انهارده🥵؟ ",
-"بتحب حد يمصلك🥵؟ ",
-"الموقع الازرق ولا البورن🥵 ؟ ",
-"نفسك....... تنيك مين🥵؟ ",
-"نكت جارتكم كام مره🥵؟ ",
-"بتجبيهم.... بكام صباع🥵؟ ",
-"بتحبي الطويل ولا القصير🥵؟ ",
-"بتحبي الابيض ولا الزنجي🥵؟ ",
-"بتجبهم علي مين🥵؟ ",
-"نفسك تنيك سما القادره🥵؟ ",
-"حربي ناكك قبل كده🥵؟ ",
-"مايا....... ولا لانا🥵؟ ",
-"عندك...... صور نودز🥵؟ ",
-"بتحب الاحمر ولا الاسود🥵؟ ",
-"الموقع المفضل عندك للسكس🥵؟ ",
-"نفسك لوسيفر....... ينيكك🥵؟ ",
-"عايز تنيك.....مايا🥵؟ ",
-"سمعت سكس...كام مره انهارده🥵؟ ",
-"نكت عيال........ كام مره🥵؟ ",
-"اي رايك....في كس سما القادره🥵؟ ",
-"لي تيم العصابه نايك الكل🥵؟ ",
-"مايا خليفه ولا....سما القادره🥵؟ ",
 } 
 send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
@@ -3660,6 +3641,36 @@ local TWEET_Msg = {
 send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
+if text == "باد" or text == "باد" or text == "bad" then 
+local TWEET_Msg = { 
+" نكت بنت كام مره🥵؟",
+"جبتهم كام مره انهارده🥵؟",
+"بتحب حد يمصلك🥵؟",
+"الموقع الازرق ولا البورن🥵؟",
+"نفسك....... تنيك مين🥵؟",
+"نكت جارتكم كام مره🥵؟",
+"بتجبيهم.... بكام صباع🥵؟",
+"بتحبي الطويل ولا القصير🥵؟",
+"بتحبي الابيض ولا الزنجي🥵؟",
+"بتجبهم علي مين🥵؟",
+"نفسك تنيك سما القادره🥵؟",
+"حربي ناكك قبل كده🥵؟",
+"مايا....... ولا لانا🥵؟",
+"عندك...... صور نودز🥵؟",
+"بتحب الاحمر ولا الاسود🥵؟",
+بتحب البيضه ولا السوده🥵؟",
+"الموقع المفضل عندك للسكس🥵؟",
+"نفسك لوسيفر....... ينيكك🥵؟",
+"عايز تنيك.....مايا🥵؟",
+"سمعت سكس...كام مره انهارده🥵؟",
+"نكت عيال........ كام مره🥵؟",
+اي رايك....في كس سما القادره🥵؟",
+لي تيم العصابه نايك الكل🥵؟",
+مايا خليفه ولا....سما القادره🥵؟",
+} 
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+return false 
+end
 if text == "حروف" or text == "حرف" or text == "الحروف" then 
 local TWEET_Msg = { 
 " جماد بحرف ↚ ر  ", 
@@ -3746,18 +3757,18 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, 
 end
 if text == 'قناة السورس' then
 local Text = [[ 
-[قناه سورس ولف ادخل وتابع الجديد](t.me/SOURCE_WOOLF)
+[قناه سورس وٌلُـ‘ـُفُـ‘ـُادخل وتابع الجديد](t.me/SOURCE_WOOLF)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩' then
 local Text = [[ 
- ⋆من أحسن السورسات على التليجرام سورس ولف⋆
+ ⋆من أحسن السورسات على التليجرام سورس وٌلُـ‘ـُفُـ‘ـُ⋆
 بجد سورس أمان جدا وفي مميزات جامده
 تع نصب بوتك عندنا لو محظور
 خش على تواصل هيدخلك لروم التواصل 
@@ -3767,24 +3778,12 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/11&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'التواصل'  then
-database:del(bot_id..'Srt:Bot') 
-local Text = [[ 
-[TWL](t.me/TWASOLSOON)
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = ':̤̈T̤̈::̤̈Ö̤: :̤̈Ä̤::̤̈S̤̈::̤̈K̤̈:', url="t.me/TWASOLSOON"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/vagwg/29&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
 if text == 'العاب ولف' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
- ⋆ اهلا في قائمه الالعاب المتطوره سورس ولف⋆ 
+ ⋆ اهلا في قائمه الالعاب المتطوره سورس وٌلُـ‘ـُفُـ‘ـُ⋆ 
 تفضل اختر لعبه من القائمه 
 ]]  
 keyboard = {}   
@@ -4865,15 +4864,11 @@ if tonumber(result.sender_user_id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر البوت عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1804133252) then  
+if tonumber(result.sender_user_id_) == tonumber(1804978483) then  
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1859008079) then  
-send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
-return false 
-end
-if tonumber(result.sender_user_id_) == tonumber(1774315810) then  
+if tonumber(result.sender_user_id_) == tonumber(1223908266) then  
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -4919,10 +4914,11 @@ if result.id_ == tonumber(1804978483) then
 send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-texts = usertext..status
-database:sadd(bot_id..'GBan:User', result.id_)
-else
-texts = ' ⋆ لا يوجد حساب بهاذا المعرف'⋆ الـعـضو   ↚ ['..result.title_..'](t.me/'..(username or 'SOURCE_WOOLF')..')'
+if result.id_ == tonumber(1223908266) then
+send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مبرمج السورس \n")
+return false 
+end
+usertext = '\n ⋆ الـعـضو   ↚ ['..result.title_..'](t.me/'..(username or 'SOURCE_WOOLF')..')'
 status  = '\n ⋆ تم حظرو عام من الجروبات '
 texts = usertext..status
 database:sadd(bot_id..'GBan:User', result.id_)
@@ -7558,7 +7554,7 @@ send(msg.chat_id_, msg.id_, ' ⋆ تم مسح جميع الزوجات')
 end
 if text == ("تاك للزوجات") and Mod(msg) then
 local list = database:smembers(bot_id..'Mode:User'..msg.chat_id_)
-t = "\n ⋆ قائمه زوجات الجروب \n ⋆═───═❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳═───═??\n"
+t = "\n ⋆ قائمه زوجات الجروب \n ⋆═───═❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳═───═??\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -10303,7 +10299,7 @@ kickme = '✘'
 end
 NUM_MSG_MAX = database:hget(bot_id.."flooding:settings:"..msg.chat_id_,"floodmax") or 0
 local text = 
-'\n❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳'..
+'\n❲[𝕎𝕆𝕃𝔽](t.me/SOURCE_WOOLF)❳'..
 '\n☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩'..
 '\n ⋆ اعدادات الجروب كتالي √↓'..
 '\nء☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩'..
@@ -10340,7 +10336,7 @@ local text =
 ' }\n'..' ⋆  التكرار  ↚ { '..flood..
 ' }\n'..' ⋆  الترحيب  ↚ { '..welcome..
 ' }\n'..' ⋆  عدد التكرار  ↚ { '..NUM_MSG_MAX..
-' }\nء𖠕━┅┅┄⟞❲[??🅞🅞🅽](t.me/SOURCE_WOOLF)❳⟝┄┉┉━𖠕'..
+' }\nء𖠕━┅┅┄⟞❲[ᵂᴼᴸᶠ](t.me/SOURCE_WOOLF)❳⟝┄┉┉━𖠕'..
 '\n ⋆  علامة ال {✓} تعني مفعل'..
 '\n ⋆  علامة ال {✘} تعني معطل'..
 '\nء☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩'..
@@ -10352,7 +10348,7 @@ local text =
 ' }\n'..' ⋆  الايدي  ↚ { '..idgp..
 ' }\n'..' ⋆  الايدي بالصوره  ↚ { '..idph..
 ' }\n'..' ⋆  الرفع  ↚ { '..setadd..
-' }\n'..' ⋆  الحظر  ↚ { '..banm..' }\n\n ⋆═───═❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳═───═ ⋆\n ⋆ قناة سورس ولف↓\n [ ❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳](t.me/SOURCE_WOOLF) \n'
+' }\n'..' ⋆  الحظر  ↚ { '..banm..' }\n\n ⋆═───═❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳═───═ ⋆\n ⋆ قناة سورس ولف↓\n [ ❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳](t.me/SOURCE_WOOLF) \n'
 send(msg.chat_id_, msg.id_,text)     
 end
 if text ==('تثبيت') and msg.reply_to_message_id_ ~= 0 and Mod(msg) then  
@@ -10465,7 +10461,7 @@ for k,v in pairs(zx.ok) do
 i = i + 1
 t = t..i.."-  `"..v.."` \n"
 end
-send(msg.chat_id_, msg.id_, t..'☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩\nاضغط علي الاسم ليتم نسخه\n☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩ٴ\n ⋆ ❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ ⋆ ')
+send(msg.chat_id_, msg.id_, t..'☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩\nاضغط علي الاسم ليتم نسخه\n☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩ٴ\n ⋆ ❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳ ⋆ ')
 end
 if text == "ضع رابط" or text == 'وضع رابط' then
 if msg.reply_to_message_id_ == 0  and Mod(msg) then  
@@ -12852,7 +12848,7 @@ if not my_ph then
 send(msg.chat_id_, msg.id_," ⋆انا مين معطله") 
 return false  
 end
-send(msg.chat_id_,msg.id_, '[انت مجرد عضو زليل حقير ملوش لزمه 😂](t.me/SOURCE_WOOLF)')
+send(msg.chat_id_,msg.id_, '[نت مجرد عضو قميل🌚 😂](t.me/SOURCE_WOOLF)')
 return false
 end
 
@@ -13009,7 +13005,7 @@ if not my_ph then
 send(msg.chat_id_, msg.id_,"  ") 
 return false  
 end
-send(msg.chat_id_,msg.id_, '[وحيات امك ياكبتن خدوني معاكو بف...🥺💔](t.me/SOURCE_WOOLF)')
+send(msg.chat_id_,msg.id_, '[وحيات امك ياكبتن خدوني معاكو بيف...🥺💔](t.me/SOURCE_WOOLF)')
 return false
 end
 end
@@ -13088,7 +13084,7 @@ end
 end
 end
 if text then 
-list = {'سي في'}
+list = {'++٩٠'}
 for k,v in pairs(list) do
 if string.find(text,v) ~= nil then
 local my_ph = database:get(bot_id.."my_GHoeq2:status"..msg.chat_id_)
@@ -13096,7 +13092,7 @@ if not my_ph then
 send(msg.chat_id_, msg.id_,"  ") 
 return false  
 end
-send(msg.chat_id_,msg.id_, '[كفايه شقط....وحك زي ميكو😹](t.me/SOURCE_WOOLF)')
+send(msg.chat_id_,msg.id_, '[خخخ امال ..😹](t.me/SOURCE_WOOLF)')
 return false
 end
 end
@@ -13899,12 +13895,12 @@ local List = {
 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
 ]],
 [[
-🇪🇬≪💎≫ #username • メ
-🇪🇬≪💎≫ #stast  •メ
-🇪🇬≪💎≫ #id  • メ
-🇪🇬≪💎≫ #msgs  •メ
-🇪🇬≪💎≫ #game •メ
-🇪🇬𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
+🇧🇪≪💎≫ #username • メ
+🇧🇪≪💎≫ #stast  •メ
+🇧🇪≪💎≫ #id  • メ
+🇧🇪≪💎≫ #msgs  •メ
+🇧🇪≪💎≫ #game •メ
+🇧🇪𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
 ]],
 [[
  𝚄𝚂𝙴𝚁 𓄹𓄼 #username
@@ -13953,7 +13949,7 @@ local List = {
 ]],
 [[
 ••• ••• ••• ••• ••• ••• ••• 
-࿕ ¦• 𝙐𝙎𝙀??  ⟿ #username ༆
+࿕ ¦• 𝙐𝙎𝙀𝙍  ⟿ #username ༆
  ࿕ ¦• 𝙈𝙎𝙂𝙎   ⟿ #msgs ༆
  ࿕ ¦• 𝙂𝙈𝘼𝙎  ⟿ #stast ༆
  ࿕ ¦• 𝙏𝘿 𝙎𝙏𝘼  ⟿ #id ༆
@@ -13972,7 +13968,7 @@ local List = {
 -›   𝚂𝚃𝙰𝚂𝚃 . #stast 🇪🇬 ꙰
 -›   𝙸𝙳 . #id 🇪🇬 ꙰ 
 -›   𝙶𝙼𝙰𝚂 . #stast 🇪🇬 ꙰ 
--›   𝙼𝚂??𝚂 . #msgs 🇪🇬 ꙰
+-›   𝙼𝚂𝙶𝚂 . #msgs 🇪🇬 ꙰
 -›   ??𝗛 - 「@SOURCE_WOOLF」 🇪🇬 ꙰.
 ]],
 [[
@@ -13984,12 +13980,12 @@ local List = {
 ]],
 [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 - 𝚄𝚂𝙴𝚁 ⟿ #username 💘.
-🇪🇬 - 𝙼𝚂𝙶𝚂 ⟿  #msgs 💘.
-🇪🇬 - 𝙶𝙼𝙰𝚂 ⟿ #stast 💘.
-🇪🇬 - 𝙸𝙳 𝚂𝚃𝙰 ⟿ #id 💘.  
+🇮🇹 - 𝚄𝚂𝙴𝚁 ⟿ #username 💘.
+🇮🇹 - 𝙼𝚂𝙶𝚂 ⟿  #msgs 💘.
+🇮🇹 - 𝙶𝙼𝙰𝚂 ⟿ #stast 💘.
+🇮🇹 - 𝙸𝙳 𝚂𝚃𝙰 ⟿ #id 💘.  
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 - 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
+🇮🇹 - 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
 ]],
 [[
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
@@ -14044,12 +14040,12 @@ local List = {
 ]],
 [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 ꙰  - 𝚞 𝚜𝚎 𝚛 ➟ #username  ❃.
-🇪🇬 ꙰  - 𝚖 𝚜𝚐 𝚜 ➟ #msgs ❃.
-🇪🇬 ꙰  - 𝚐 𝚖 𝚊𝚜  ➟ #stast ❃.
-🇪🇬 ꙰  - 𝙸𝙳 𝚜𝚝𝚊   ➟ #id ❃.
+🖕🏿 ꙰  - 𝚞 𝚜𝚎 𝚛 ➟ #username  ❃.
+🖕🏿 ꙰  - 𝚖 𝚜𝚐 𝚜 ➟ #msgs ❃.
+🖕🏿 ꙰  - 𝚐 𝚖 𝚊𝚜  ➟ #stast ❃.
+🖕🏿 ꙰  - 𝙸𝙳 𝚜𝚝𝚊   ➟ #id ❃.
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🇪🇬 ꙰  - 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
+🖕🏿 ꙰  - 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
 ]],
 [[
 🌯 ¦✙• 𝐮𝐬𝐞𝐫𝒏𝒂𝒎𝒆 ➢ ⁞  #username 🇪🇬
@@ -14294,11 +14290,11 @@ local List = {
 • 𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
 ]],
 [[
-𝐘𝐨𝐮𝐫 𝐈𝐃 ☤🇪🇬- #id 
-𝐔𝐬𝐞𝐫𝐍𝐚☤🇪🇬- #username 
-𝐒𝐭𝐚𝐬𝐓 ☤🇪🇬- #stast 
-𝐌𝐬𝐠𝐒☤🇪🇬 - #msgs
-𝗖𝗛☤🇪🇬 - 「@SOURCE_WOOLF」 ⋆.
+𝐘𝐨𝐮𝐫 𝐈𝐃 ☤🇲🇽- #id 
+𝐔𝐬𝐞𝐫𝐍𝐚☤🇲🇽- #username 
+𝐒𝐭𝐚𝐬𝐓 ☤🕸- #stast 
+𝐌𝐬𝐠𝐒☤🇲🇽 - #msgs
+𝗖𝗛☤🇲🇽 - 「@SOURCE_WOOLF」 ⋆.
 ]],
 [[
 ⭐️𝖘𝖙𝖆 : #stast ـ🍭
@@ -14322,12 +14318,12 @@ local List = {
 • 𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
 ]],
 [[
-🇪🇬 - 𝄬 𝐔ˢᴱᴿᴺᴬᴹᴱ . #username  𓃠
-🇪🇬 - 𝄬 ˢᵀᴬˢᵀ . #stast  𓃠
-🇪?? - 𝄬 ᴵᴰ . #id 𓃠
-🇪🇬 - 𝄬 ᴳᴹᴬˢ . #gmas 𓃠
-🇪🇬 - 𝄬 ᴹˢᴳˢ . #msgs  𓃠
-🇪🇬 - 𝄬 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
+🕸 - 𝄬 𝐔ˢᴱᴿᴺᴬᴹᴱ . #username  𓃠
+🕸 - 𝄬 ˢᵀᴬˢᵀ . #stast  𓃠
+🕸 - 𝄬 ᴵᴰ . #id 𓃠
+🕸 - 𝄬 ᴳᴹᴬˢ . #gmas 𓃠
+🕸 - 𝄬 ᴹˢᴳˢ . #msgs  𓃠
+🕸 - 𝄬 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
 ]],
 [[
 𓄼🇪🇬 𝑼𝒔𝒆𝒓𝑵𝒂𝒎𝒆 : #username ♕
@@ -14369,8 +14365,8 @@ Msᴀɢ ~ #msgs
 金 - 𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
 ]],
 [[
-➜𝗨𝗦??𝗥𝗡𝗔𝗠?? : #username
-➜??𝗘𝗦𝗦𝗔𝗚𝗘𝗦 : #msgs
+➜𝗨𝗦??𝗥𝗡𝗔𝗠𝗘 : #username
+➜𝗠𝗘𝗦𝗦𝗔𝗚𝗘𝗦 : #msgs
 ➜𝗦𝗧𝗔𝗧𝗦 : #stast
 ➜𝗜𝗗 : #id
 ➜𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
@@ -14407,7 +14403,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 .𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 , #username  🖤 ↴
-.𖣂 𝙨𝙩𝙖𝙨𝙩 , #stast  🖤 ↴
+.𖣂 𝙨𝙩𝙖??𝙩 , #stast  🖤 ↴
 .𖣂 𝙡𝘿 , #id  🖤 ↴
 .𖣂 𝘼𝙪𝙩𝙤 , #auto  🖤 ↴
 .𖣂 𝙢𝙨𝙂𝙨 , #msgs  🖤 ↴
@@ -14732,10 +14728,10 @@ Msᴀɢ ~ #msgs
 ◣: 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆
 ]],
 [[
-- 𝄬 username . #username ➪🇪🇬
- - 𝄬 stast . #stast ➪🇪🇬
- - 𝄬 id . #id ➪🇪🇬
- - 𝄬 msgs . #msgs ➪🇪🇬
+- 𝄬 username . #username ➪🖕🏿
+ - 𝄬 stast . #stast ➪🖕🏿
+ - 𝄬 id . #id ➪🖕🏿
+ - 𝄬 msgs . #msgs ➪🖕🏿
  - 𝄬 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆
 ]],
 [[
@@ -14804,12 +14800,12 @@ Msᴀɢ ~ #msgs
 ⚕𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆
 ]],
 [[
-• 🦄 | 𝑼𝑬𝑺 : #username ‌‌‏⚚
-• 🦄 | 𝑺𝑻𝑨 : #stast ☥
-• 🦄 | 𝑰𝑫 : #id ‌‌‏♕
-• 🦄 | 𝑴𝑺𝑮 : #msgs 𓆊
-• 🦄 | 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 : ⁞
-• 🦄 | 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆
+• 🖤 | 𝑼𝑬𝑺 : #username ‌‌‏⚚
+• 🖤 | 𝑺𝑻𝑨 : #stast ☥
+• 🖤 | 𝑰𝑫 : #id ‌‌‏♕
+• 🖤 | 𝑴𝑺𝑮 : #msgs 𓆊
+• 🖤 | 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 : ⁞
+• 🖤 | 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆
 ]],
 [[
 • △ | 𝑼𝑬𝑺 : #username ‌‌‏⚚
@@ -15610,7 +15606,7 @@ local Text =[[
  اختر الامر الذي تريدها .↑↓
 ده من الازرار بلاسفل . ↓
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝕎𝕆𝕃𝔽](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -15638,7 +15634,7 @@ local Text = [[
  اختر العبه الذي تريدها .↑↓
 ده من الازرار بلاسفل . ↓
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
- ❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+ ❲[𝕎𝕆𝕃𝔽](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16057,7 +16053,7 @@ local Teext =[[
  ⋆الجهات
  ⋆الاشعارات
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16129,7 +16125,7 @@ local Teext =[[
  ⋆ المنشئين ⇔  مسح المنشئين
  ⋆  ❲ + ❳ جميع ماسبق
  ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16189,7 +16185,7 @@ local Teext =[[
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
  ⋆الاوامر المضافه ( لعرض الاوامر المضافه ) 
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16285,7 +16281,7 @@ local Teext =[[
  ⋆الساعه
  ⋆التاريخ
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16374,7 +16370,7 @@ local Teext =[[
  ⋆تفعيل/تعطيل المغادره
  ⋆مسح الجروبات
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16414,7 +16410,7 @@ local Teext =[[
  ⋆   بتحب دي ⇔ بتحب ده
  ⋆  بوت الحذف⇔رابط الحذف
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16483,7 +16479,7 @@ local Teext =[[
  ⋆تنزيل ←من زبي 
  ⋆تاك للمتناكين
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16508,7 +16504,7 @@ local Teext =[[
  اختر الامر الذي تريدها .↑↓
 ده من الازرار بلاسفل . ↓
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
-❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16534,11 +16530,11 @@ https.request("https://api.telegram.org/bot"..token.."/answerCallbackQuery?callb
 return false
 end
 local Teext =[[
-🎖┇ 𝙱𝙰??𝙸𝙲 𝙳𝙴𝚅𝙴??𝙾𝙿𝙴𝚁 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 .
+🎖┇ 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏  .
 ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ 
  ⋆ اهلا بك عزيزي 🔊
  ⋆ اوامر مطور الاساسي 👨🏼‍✈️
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵 ┉ • ┉ • ┉•
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
  ⋆ تفعيل
  ⋆ تعطيل
  ⋆ مسح الاساسين
@@ -16548,7 +16544,7 @@ local Teext =[[
  ⋆ مسح المطورين
  ⋆ المطورين
  ⋆ رفع | تنزيل مطور
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵┉ • ┉ • ┉•
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
  ⋆ اسم البوت + غادر
  ⋆ غادر
  ⋆ اسم بوت + الرتبه
@@ -16560,13 +16556,13 @@ local Teext =[[
  ⋆ مسح قائمه العام
  ⋆ جلب النسخه
  ⋆ رفع النسخه
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵 ┉ • ┉ • ┉•
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
  ⋆ اذاعه خاص
  ⋆ اذاعه
  ⋆ اذاعه بالتوجيه
  ⋆ اذاعه بالتوجيه خاص
  ⋆ اذاعه بالتثبيت
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵 ┉ • ┉ • ┉•
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
  ⋆ جلب نسخه البوت
  ⋆ رفع نسخه البوت
  ⋆ ضع عدد الاعضاء + العدد
@@ -16578,21 +16574,21 @@ local Teext =[[
  ⋆ اضف/مسح رد عام
  ⋆ الردود العامه
  ⋆ مسح الردود العامه
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵 ┉ • ┉ • ┉•
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
  ⋆ الاشتراك الاجباري
  ⋆ تعطيل الاشتراك الاجباري
  ⋆ تفعيل الاشتراك الاجباري
  ⋆ مسح رساله الاشتراك
  ⋆ تغير رساله الاشتراك
  ⋆ تغير الاشتراك
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵 ┉ • ┉ • ┉•
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
  ⋆ الاحصائيات
  ⋆ المشتركين
  ⋆ المجموعات 
  ⋆ تفعيل/تعطيل المغادره
  ⋆ مسح الجروبات
-•┉ • ┉ • ┉ 𝚆𝙾𝙻𝙵 ┉ • ┉ • ┉•
-➫ .[🖨┇𝘴𝘰𝘶𝘳𝘤𝘦 𝘸𝘰𝘭𝘧 ](t.me/SOURCE_WOOLF)➤
+•┉ • ┉ • ┉ ☩ᵂᴼᴸᶠ☩🕸 ┉ • ┉ • ┉•
+➫ .[🖨┇☩ᵂᴼᴸᶠ☩🕸.](t.me/SOURCE_WOOLF)➤
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16612,7 +16608,7 @@ keyboard.inline_keyboard = {
 {text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
 },
 {
-{text = '𓆩𝚆𝙾𝙻𝙵𓆪', url="t.me/SOURCE_WOOLF"},
+{text = '𓆩𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏🕸𓆪', url="t.me/SOURCE_WOOLF"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -16620,7 +16616,7 @@ end
 if Text == '/help10' then
 local help_text = database:get(bot_id..'help10_text')
 local Teext =[[
- ⋆   بك في مميزات سورس ولف⋆  
+ ⋆   بك في مميزات سورس وٌلُـ‘ـُفُـ‘ـُ⋆  
  ⋆   مميزات الخاصه بسورس ⋆ 
 ]]
 keyboard = {} 
@@ -16648,7 +16644,7 @@ local Teext =[[
  اختر الامر الذي تريدها .↑↓
 ده من الازرار بلاسفل . ↓
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
- ❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+ ❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16692,7 +16688,7 @@ return https.request("https://api.telegram.org/bot"..token..'/editMessageText?ch
 end
 if Text == '/sofi' then
 local Teext =[[
- ⋆ اهلا في قائمه الالعاب المتطوره سورس ولف⋆ 
+ ⋆ اهلا في قائمه الالعاب المتطوره سورس وٌلُـ‘ـُفُـ‘ـُ⋆ 
 تفضل اختر لعبه من القائمه 
 ]]
 keyboard = {} 
@@ -16752,7 +16748,7 @@ local Teext =[[
  ⋆   بتحب دي ⇔ بتحب ده
  ⋆  بوت الحذف⇔رابط الحذف
 ☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩
- ❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+ ❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -16785,7 +16781,7 @@ return https.request("https://api.telegram.org/bot"..token..'/editMessageText?ch
 end
 if Text == '/change-photo' then
 local Teext =[[
- ⋆ بك في مميزات سورس ولف⋆
+ ⋆ بك في مميزات سورس وٌلُـ‘ـُفُـ‘ـُ⋆
  ⋆ مميزات الخاصه بسورس ⋆
 ]]
 keyboard = {} 
@@ -16809,7 +16805,7 @@ local Teext =[[
  اختر العبه الذي تريدها .↑↓
 ده من الازرار بلاسفل . ↓
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
- ❲[𝚆𝙾𝙻𝙵](t.me/SOURCE_WOOLF)❳ 
+ ❲[𝚜𝚘𝚞𝚛𝚌𝚎 𝚠𝚘𝚕𝚏 ](t.me/SOURCE_WOOLF)❳ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
