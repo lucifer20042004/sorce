@@ -2981,6 +2981,8 @@ https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. ms
 end
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
 local Text = [[
+اهلا بك في سورس ولف لو عايز بوت بارخص الاسعار
+تواصل معنا🔽
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -3897,32 +3899,23 @@ database:del(bot_id.."Set:Cmd:Group1"..msg.chat_id_..':'..msg.sender_user_id_)
 return false
 end
 --------------------------------------------------------------------------------------------------------------
-if text == "المطور" or text == "مطور" then
-local TEXT_SUD = database:get(bot_id..'Tshake:TEXT_SUDO')
-if TEXT_SUDO then 
-send(msg.chat_id_, msg.id_,TEXT_SUDO)
-else
-tdcli_function ({ID = "GetUser",user_id_ = SUDO,},function(arg,result) 
-local function taha(extra, taha, success)
-if taha.photos_[0] then
-local Name = '〈 المطور 〉 -  \n['..result.first_name_..'](tg://user?id='..result.id_..')\n'
+if text == 'المطور' or text == 'مطور' then
+tdcli_function ({ID = "GetUser",user_id_ = SUDO},function(arg,result) 
+ 
+ local msg_id = msg.id_/2097152/0.5
+local Text = [[
+◉ يمكنك التواصل مع المطور..↑↓
+◉ عن طريق معرفه بلاسفل..↑↓
+]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{
-{text = ''..result.first_name_..'', url = "https://t.me/"..result.username_..""},
-},
-{
-{text = '00:00', url="t.me/SOURCE_WOOLF"},
-},
+{{text = '  ❨ '..result.first_name_..'  ❩ ',url="t.me/"..result.username_}},
+{{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
 }
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id='..msg.chat_id_..'&caption='..URL.escape(Name)..'&photo='..taha.photos_[0].sizes_[1].photo_.persistent_id_..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
-else
-sendText(msg.chat_id_,Name,msg.id_/2097152/0.5,'md')
- end end
-tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = SUDO, offset_ = 0, limit_ = 1 }, taha, nil)
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/'..result.username_..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end,nil)
-end
+
+
 end
 
 
@@ -13967,7 +13960,7 @@ local List = {
 [[
 ᯓ 𝟔𝟔𝟔 𖡋 #username •✟
 ᯓ 𝟔𝟔𝟔𖡋 #stast  •✟
-ᯓ 𝟔𝟔𝟔𖡋 #id  • ✟
+ᯓ 𝟔𝟔??𖡋 #id  • ✟
 ᯓ 𝟔𝟔𝟔𖡋 #msgs  •✟ 
 ᯓ 𝟔𝟔𝟔𖡋 #game •✟
 ᯓ 𝟔𝟔𝟔𖡋 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
