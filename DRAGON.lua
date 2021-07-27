@@ -1306,7 +1306,7 @@ keyboard.inline_keyboard = {
 {{text = '7ᴿᴮᴼᴷᴬ', url="t.me/DvH7rboka_A3"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/14&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
@@ -1317,7 +1317,7 @@ keyboard.inline_keyboard = {
 {{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹', url="t.me/LLucifeerr"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -3397,7 +3397,7 @@ local TWEET_Msg = {
 "‏من علامات جمال المرأة .. بختها المايل ! ",
 "‏ انك الجميع و كل من احتل قلبي🫀🤍",
 "‏ ‏ لقد تْعَمقتُ بكَ كَثيراً والمِيمُ لام .♥️",
-"‏ ‏ممكن اكون اختارت غلط بس والله حبيت بجد??️",
+"‏ ‏ممكن اكون اختارت غلط بس والله حبيت بجد🖇️",
 "‏ علينا إحياء زَمن الرّسائل الورقيّة وسط هذه الفوضى الالكترونية العَارمة. ⋆💜",
 "‏ يجي اي الصاروخ الصيني ده جمب الصاروخ المصري لما بيلبس العبايه السوده.🤩♥️",
 "‏ كُنت أرقّ من أن أتحمّل كُل تلك القَسوة من عَينيك .🍍",
