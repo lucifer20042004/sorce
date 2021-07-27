@@ -1303,7 +1303,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
+{{text = '7ᴿᴮᴼᴷᴬ', url="t.me/DvH7rboka_A3"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1314,7 +1314,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
+{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁', url="t.me/LLucifeerr"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13953,7 +13953,7 @@ local List = {
 🇮🇹 - 𝚄𝚂𝙴𝚁 ⟿ #username 💘.
 🇮🇹 - 𝙼𝚂𝙶𝚂 ⟿  #msgs 💘.
 🇮🇹 - 𝙶𝙼𝙰𝚂 ⟿ #stast 💘.
-🇮🇹 - 𝙸𝙳 𝚂𝚃𝙰 ⟿ #id 💘.  
+🇮🇹 - 𝙸𝙳 ??𝚃𝙰 ⟿ #id 💘.  
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 🇮🇹 - 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
 ]],
