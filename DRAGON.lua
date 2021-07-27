@@ -4919,10 +4919,10 @@ if result.id_ == tonumber(1804978483) then
 send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1223908266) then
-send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مبرمج السورس \n")
-return false 
-usertext = '\n ⋆ الـعـضو   ↚ ['..result.title_..'](t.me/'..(username or 'SOURCE_WOOLF')..')'
+texts = usertext..status
+database:sadd(bot_id..'GBan:User', result.id_)
+else
+texts = ' ⋆ لا يوجد حساب بهاذا المعرف'⋆ الـعـضو   ↚ ['..result.title_..'](t.me/'..(username or 'SOURCE_WOOLF')..')'
 status  = '\n ⋆ تم حظرو عام من الجروبات '
 texts = usertext..status
 database:sadd(bot_id..'GBan:User', result.id_)
@@ -14370,7 +14370,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 ➜𝗨𝗦??𝗥𝗡𝗔𝗠?? : #username
-➜𝗠𝗘𝗦𝗦𝗔𝗚𝗘𝗦 : #msgs
+➜??𝗘𝗦𝗦𝗔𝗚𝗘𝗦 : #msgs
 ➜𝗦𝗧𝗔𝗧𝗦 : #stast
 ➜𝗜𝗗 : #id
 ➜𝗖𝗛 - 「@SOURCE_WOOLF」 💞.
