@@ -3475,7 +3475,7 @@ local TWEET_Msg = {
 "انا عملت كل حاجه واتقالي اني معملتش اي حاجه ، ف بدأت فعلا معملش حاجه وانا متعمد ..",
 "لا تسقني ماء الحياة بذلّةٍ، بل فاسقني بالعزّ كأس الحنضلِ.",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "كتبات" or text == "حكمه" or text == "قصيده" then 
