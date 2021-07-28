@@ -2988,7 +2988,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝑚𝑒𝑘𝑜', url="t.me/DV_M_E_K_O_A4"}},
 {{text = 'T W A S O L', url="t.me/TWASOL7_bot"},{text = '7𝗋𝖻𝗈𝗄𝖺', url="t.me/DvH7rboka_A3"}},
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
@@ -13116,7 +13116,7 @@ if not my_ph then
 send(msg.chat_id_, msg.id_,"  ") 
 return false  
 end
-send(msg.chat_id_,msg.id_, '[خف شقط....متبقاش حكاك زي ميكو🤔💙](t.me/SOURCE_WOOLF)')
+send(msg.chat_id_,msg.id_, '[خف شقط....متبقاش حكاك🤔💙](t.me/SOURCE_WOOLF)')
 return false
 end
 end
@@ -13896,7 +13896,7 @@ local List = {
 - 𓏬 𝐈𝐃 : #id 𓂅 .
 ]],
 [[
-.𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 , #username  
+.𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢?? , #username  
 .𖣂 𝙨𝙩𝙖𝙨𝙩 , #stast  
 .𖣂 𝙡𝘿 , #id  
 .𖣂 𝙂𝙖𝙢𝙨 , #game 
