@@ -2988,8 +2988,8 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DvH7rboka_A3"}},
-{{text = ':̤̈TWASOL', url="t.me/TWASOL7_bot"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = 'T W A S O L', url="t.me/TWASOL7_bot"},{text = '7𝗋𝖻𝗈𝗄𝖺', url="t.me/DvH7rboka_A3"}},
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -3002,15 +3002,15 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DvH7rboka_A3"}},
-{{text = ':̤̈TWASOL', url="t.me/TWASOL7_bot"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = 'T W A S O L', url="t.me/TWASOL7_bot"},{text = '7𝗋𝖻𝗈𝗄𝖺', url="t.me/DvH7rboka_A3"}},
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'ميكو' or text == 'صاحب السورس ' or text == 'قلب لوسيفر ' then
+if text == 'ميكو' or text == 'صاحب السورس' or text == 'قلب لوسيفر' then
 local Text = [[
 صاحب السورس ميكو لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
@@ -13893,7 +13893,7 @@ local List = {
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
 - 𓏬 𝐌𝐬𝐆  : #msgs 𓂅 .
 - 𓏬 𝐒𝐭𝐀 : #stast 𓂅 .
-- 𓏬 𝐈𝐃 : #id 𓂅 .
+- 𓏬 𝐈𝐃 : #id ?? .
 ]],
 [[
 .𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 , #username  
