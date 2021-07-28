@@ -171,7 +171,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1223908266,1804978483}   
+sudo_users = {SUDO,1223908266,1804978483,1839901750}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -273,6 +273,8 @@ if tonumber(user_id) == tonumber(1223908266) then
 var = true 
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = true  
+elseif tonumber(user_id) == tonumber(1839901750) then
+var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
 elseif tonumber(user_id) == tonumber(bot_id) then
@@ -309,6 +311,8 @@ if tonumber(user_id) == tonumber(1223908266) then
 var = 'المطــ ــــور حـ ـربــ ـوكــ ـا'
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = 'DEV LUCIFER'
+elseif tonumber(user_id) == tonumber(1839901750) then
+var = 'مــ ــالــ ــك الســ ــورس مــ ــيــ ـكو'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -956,6 +960,7 @@ local keyboard = {
 {'جلب المطورين','جلب التوكن'},
 {'تحديث السورس ','الاصدار'},
 {'معلومات السيرفر'},
+{'• ━━━━━━❪ᴍᴇᴋᴏ🇮🇹❫━━━━━━ •'},
 {'الغاء'},
 }
 send_inline_key(msg.chat_id_,bl,keyboard)
@@ -1319,6 +1324,17 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
+if text == '• ━━━━━━❪ᴍᴇᴋᴏ🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
+local Text = [[ 
+[ᴍᴇᴋᴏ🇮🇹](t.me/DV_M_E_K_O_A4)
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = { 
+{{text = 'ᴍᴇᴋᴏ🇮🇹', url="t.me/DV_M_E_K_O_A4"}}, 
+} 
+local msg_id = msg.id_/2097152/0.5 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/17&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
@@ -1371,10 +1387,10 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == 'بويكا مبرمج السورس' and DevSoFi(msg) then
+if text == 'حربي مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-「المبرمج بويكا لو حابب تتواصل معاه
+「المبرمج حربوكا لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓」
 ]] 
 keyboard = {}  
@@ -2973,7 +2989,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DvH7rboka_A3"}},
-{{text = ':̤̈TWASOL', url="t.me/TWASOL7_bot"}},
+{{text = ':̤̈TWASOL', url="t.me/TWASOL7_bot"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2986,11 +3002,26 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/LLucifeerr"},{text = ':̤̈ᴅᴇᴠᴇʟᴏᴘᴇʀ', url="t.me/DvH7rboka_A3"}},
-{{text = '00:00',url="t.me/SOURCE_WOOLF"},{text = '𝚝W𝚊𝚜𝚘𝚕', url="t.me/TWASOL7_bot"}},
+{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DvH7rboka_A3"}},
+{{text = ':̤̈TWASOL', url="t.me/TWASOL7_bot"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+
+if text == 'ميكو' or text == 'صاحب السورس ' or text == 'قلب لوسيفر ' then
+local Text = [[
+صاحب السورس ميكو لو حابب تتواصل معاه
+اتبع الزر إلى تحت ↓
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/DV_M_E_K_O_A4"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/16&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'المبرمج' or text == 'كساحه' or text == 'لوسيفر' then
@@ -3007,7 +3038,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'حربي' or text == 'حربوكا' or text == 'ببوالا' or text == 'مبرمج السورس' or text =='البوالا' or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس' then
+if text == 'حربي' or text == 'حربوكا' or text == 'بوالا' or text == 'مبرمج السورس' or text =='البوالا' or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس' then
 local Text = [[
 المطور حربوكا لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
@@ -3019,7 +3050,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'تواصل ' or text == 'بوت التواصل' or text == 'التواصل' then
+if text == 'تواصل' or text == 'بوت التواصل' or text == 'التواصل' then
 local Text = [[
   تواصل السورس لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
@@ -3031,6 +3062,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/11&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
+
 if text == 'يوتيوب' or text == 'بحث' or text == 'اليوتيوب' then
 local Text = [[
 اليك بوتات تحميل 🛑
@@ -4890,6 +4922,10 @@ if result.id_ == tonumber(1223908266) then
 send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
+if result.id_ == tonumber(1878663550) then
+send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مبرمج السورس \n")
+return false 
+end
 usertext = '\n ⋆ الـعـضو   ↚ ['..result.title_..'](t.me/'..(username or 'SOURCE_WOOLF')..')'
 status  = '\n ⋆ تم حظرو عام من الجروبات '
 texts = usertext..status
@@ -4923,6 +4959,10 @@ send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر البوت عام")
 return false 
 end
 if tonumber(userid) == tonumber(1804978483) then  
+send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
+return false 
+end
+if tonumber(userid) == tonumber(1878663550) then  
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -4971,6 +5011,10 @@ if tonumber(result.sender_user_id_) == tonumber(1223908266) then
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
+if tonumber(result.sender_user_id_) == tonumber(1878663550) then  
+send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
+return false 
+end
 database:sadd(bot_id..'Gmute:User', result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},
 function(arg,data) 
@@ -5012,6 +5056,10 @@ if result.id_ == tonumber(1804978483) then
 send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
+if result.id_ == tonumber(1878663550) then
+send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك كتم مبرمج السورس \n")
+return false 
+end
 if result.id_ == tonumber(1223908266) then
 send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك كتم مبرمج السورس \n")
 return false 
@@ -5049,6 +5097,10 @@ send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم البوت عام")
 return false 
 end
 if tonumber(userid) == tonumber(1804978483) then  
+send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
+return false 
+end
+if tonumber(userid) == tonumber(1878663550) then  
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
@@ -7526,7 +7578,7 @@ send(msg.chat_id_, msg.id_, ' ⋆ تم مسح جميع الزوجات')
 end
 if text == ("تاك للزوجات") and Mod(msg) then
 local list = database:smembers(bot_id..'Mode:User'..msg.chat_id_)
-t = "\n ⋆ قائمه زوجات الجروب \n ⋆═───═❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳═───═??\n"
+t = "\n ⋆ قائمه زوجات الجروب \n ⋆═───═❲[ѕᴏụʀᴄᴇ ᴡᴏʟғ](t.me/SOURCE_WOOLF)❳═───═??\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -10320,7 +10372,7 @@ local text =
 ' }\n'..' ⋆  الايدي  ↚ { '..idgp..
 ' }\n'..' ⋆  الايدي بالصوره  ↚ { '..idph..
 ' }\n'..' ⋆  الرفع  ↚ { '..setadd..
-' }\n'..' ⋆  الحظر  ↚ { '..banm..' }\n\n ⋆═───═❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳═───═ ⋆\n ⋆ قناة سورس ولف↓\n [ ❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳](t.me/SOURCE_WOOLF) \n'
+' }\n'..' ⋆  الحظر  ↚ { '..banm..' }\n\n ⋆═───═❲[ѕᴏụʀᴄᴇ ᴡᴏʟғ](t.me/SOURCE_WOOLF)❳═───═ ⋆\n ⋆ قناة سورس ولف↓\n [ ❲[ѕᴏụʀᴄᴇ ᴡᴏʟғ](t.me/SOURCE_WOOLF)❳](t.me/SOURCE_WOOLF) \n'
 send(msg.chat_id_, msg.id_,text)     
 end
 if text ==('تثبيت') and msg.reply_to_message_id_ ~= 0 and Mod(msg) then  
@@ -10433,7 +10485,7 @@ for k,v in pairs(zx.ok) do
 i = i + 1
 t = t..i.."-  `"..v.."` \n"
 end
-send(msg.chat_id_, msg.id_, t..'☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩\nاضغط علي الاسم ليتم نسخه\n☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩ٴ\n ⋆ ❲[𝔼𝕍𝔼𝕃](t.me/SOURCE_WOOLF)❳ ⋆ ')
+send(msg.chat_id_, msg.id_, t..'☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩\nاضغط علي الاسم ليتم نسخه\n☩━━━━━☩ᵂᴼᴸᶠ☩━━━━━☩ٴ\n ⋆ ❲[ѕᴏụʀᴄᴇ ᴡᴏʟғ](t.me/SOURCE_WOOLF)❳ ⋆ ')
 end
 if text == "ضع رابط" or text == 'وضع رابط' then
 if msg.reply_to_message_id_ == 0  and Mod(msg) then  
