@@ -308,11 +308,11 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1223908266) then  
-var = 'المطــ ــــور حـ ـربــ ـوكــ ـا'
+var = ' مـ ــالك الــ ـسورس حــ ــربوكا'
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = 'DEV LUCIFER'
 elseif tonumber(user_id) == tonumber(1839901750) then
-var = 'مــ ــالــ ــك الســ ــورس مــ ــيــ ـكو'
+var = 'الــ ــمــ ــطور مــ ــيــ ــكو'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -13893,7 +13893,7 @@ local List = {
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
 - 𓏬 𝐌𝐬𝐆  : #msgs 𓂅 .
 - 𓏬 𝐒𝐭𝐀 : #stast 𓂅 .
-- 𓏬 𝐈𝐃 : #id ?? .
+- 𓏬 𝐈𝐃 : #id 𓂅 .
 ]],
 [[
 .𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 , #username  
