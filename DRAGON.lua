@@ -12298,7 +12298,7 @@ ght = math.random(3,23);
 local Text ='تم اختيار المقطع الصوتي لك' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'ᶜʰ ᵛᶦᵈᵉᵒ', url="t.me/comxnxp"}}, 
+{{text = 'ᴅᴇᴠ 𝚕𝚞𝚌𝚒𝚏𝚎𝚛', url="t.me/LLucifeerr"}}, 
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
@@ -12306,14 +12306,14 @@ https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. ms
 end
 if text == "رمزيه" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(3,23); 
-local Text ='تم اختيار المقطع الصوتي لك' 
+local Text ='تم اختيار رمزيه لك' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'ᶜʰ ᵛᶦᵈᵉᵒ', url="t.me/comxnxp"}}, 
+{{text = 'ᴅᴇᴠ 𝚕𝚞𝚌𝚒𝚏𝚎𝚛', url="t.me/LLucifeerr"}}, 
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/story_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/rmzyat_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "كلمني" then
 rpl = {"ها هلاو","انطق","كول"};
@@ -14126,7 +14126,7 @@ local List = {
 ]],
 [[
 - 𓏬 𝐔𝐬𝐄𝐫 : #username 𓂅 .
-- 𓏬 𝐌𝐬𝐆  : #msgs 𓂅 .
+- 𓏬 𝐌??𝐆  : #msgs 𓂅 .
 - 𓏬 𝐒𝐭𝐀 : #stast 𓂅 .
 - 𓏬 𝐈𝐃 : #id 𓂅 .
 - 𓏬 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
