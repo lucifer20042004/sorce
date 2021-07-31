@@ -3035,7 +3035,7 @@ keyboard.inline_keyboard = {
 {{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/LLucifeerr"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/19&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'حربي' or text == 'حربوكا' or text == 'بوالا' or text == 'مبرمج السورس' or text =='البوالا' or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس' then
@@ -12324,7 +12324,7 @@ keyboard.inline_keyboard = {
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendDocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/Document_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/senddocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/Document_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "كلمني" then
 rpl = {"ها هلاو","انطق","كول"};
@@ -14536,7 +14536,7 @@ Msᴀɢ ~ #msgs
 [[
 - 🇪🇬 𝐮𝐬𝐞𝐫𝒏𝒂𝒎𝒆 . #username 𖣂.
 - 🇪🇬 𝒔𝒕𝒂𝒔𝒕 . #stast 𖣂.
-- 🇪🇬 𝐢𝐝 . #id 𖣂.
+- ??🇬 𝐢𝐝 . #id 𖣂.
 - ??🇬 𝒈𝒂𝒎𝒆𝒔 . #game 𖣂.
 - 🇪🇬 𝐦𝐬𝐠 . #msgs 𖣂.
 - 🇪🇬 𝗖𝗛 - 「@SOURCE_WOOLF」 ⋆.
