@@ -171,7 +171,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1223908266,1804978483,1839901750}   
+sudo_users = {SUDO,1223908266,1804978483,1869163387}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -273,7 +273,7 @@ if tonumber(user_id) == tonumber(1223908266) then
 var = true 
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = true  
-elseif tonumber(user_id) == tonumber(1839901750) then
+elseif tonumber(user_id) == tonumber(1869163387) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -310,9 +310,9 @@ function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1223908266) then  
 var = ' مـ ــالك الــ ـسورس حــ ــربوكا'
 elseif tonumber(user_id) == tonumber(1804978483) then
-var = 'DEV LUCIFER'
-elseif tonumber(user_id) == tonumber(1839901750) then
-var = 'الــ ــمــ ــطور مــ ــيــ ــكو'
+var = 'العــضــو االــ جمـيـل'
+elseif tonumber(user_id) == tonumber(1869163387) then
+var = 'بـويـكـا الـقمـد'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -1313,7 +1313,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪??𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
 [𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹](t.me/LLucifeerr)
 ]] 
@@ -3010,15 +3010,14 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SOURCE_WOOLF/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'ميكو' or text == 'صاحب السورس' or text == 'قلب لوسيفر' then
+if text == 'بوت التواصل' or text == 'تواصل' or text == 'تواصل السورس' then
 local Text = [[
-صاحب السورس ميكو لو حابب تتواصل معاه
-اتبع الزر إلى تحت ↓
-
+بوت تواصل السورس لو عايز تدخل علي البوت
+اتبع الزر الي تحت 🔽
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/DV_M_E_K_O_A4"}},
+{{text = '𝚝W𝚊𝚜𝚘𝚕🇲🇽',url="t.me/TWASOL7_bot"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/16&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -5024,8 +5023,8 @@ if result.id_ == tonumber(1223908266) then
 send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1878663550) then
-send(msg.chat_id_, msg.id_, "  لا يمكنك حظر مبرمج السورس \n")
+if result.id_ == tonumber(1869163387) then
+send(msg.chat_id_, msg.id_, "  بس دا بابا بويكا عيب \n")
 return false 
 end
 usertext = '\n ⋆ الـعـضو   ↚ ['..result.title_..'](t.me/'..(username or 'SOURCE_WOOLF')..')'
@@ -5064,8 +5063,8 @@ if tonumber(userid) == tonumber(1804978483) then
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1878663550) then  
-send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع حظر مبرمج السورس عام")
+if tonumber(userid) == tonumber(1869163387) then  
+send(msg.chat_id_, msg.id_, " بس دا بابا بويكا عيب")
 return false 
 end
 if tonumber(userid) == tonumber(1223908266) then  
@@ -5113,8 +5112,8 @@ if tonumber(result.sender_user_id_) == tonumber(1223908266) then
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1878663550) then  
-send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
+if tonumber(result.sender_user_id_) == tonumber(1869163387) then  
+send(msg.chat_id_, msg.id_, " بس دا بابا بويكا عيب")
 return false 
 end
 database:sadd(bot_id..'Gmute:User', result.sender_user_id_)
@@ -5158,8 +5157,8 @@ if result.id_ == tonumber(1804978483) then
 send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1878663550) then
-send(msg.chat_id_, msg.id_, " ⋆ لا يمكنك كتم مبرمج السورس \n")
+if result.id_ == tonumber(1869163387) then
+send(msg.chat_id_, msg.id_, " بس دا بابا بويكا عيب \n")
 return false 
 end
 if result.id_ == tonumber(1223908266) then
@@ -5202,8 +5201,8 @@ if tonumber(userid) == tonumber(1804978483) then
 send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1878663550) then  
-send(msg.chat_id_, msg.id_, " ⋆ لا تسطيع كتم مبرمج السورس عام")
+if tonumber(userid) == tonumber(1869163387) then  
+send(msg.chat_id_, msg.id_, " بس دا بابا بويكا عيب")
 return false 
 end
 if tonumber(userid) == tonumber(1223908266) then  
@@ -11593,30 +11592,72 @@ end
 end
 tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil)
 end
-if text == "بوت" or text == 'البوت' then
-local Namebot = (database:get(bot_id..'Name:Bot') or 'ولف')
+if text == ""..(database:get(bot_id..'Name:Bot') or 'كوكايين').."" then  
+Namebot = (database:get(bot_id..'Name:Bot') or 'كوكايين')
 local DRAGON_Msg = {
-'اسمي  '..Namebot..' يا قلبي 🤤💚',
+'نعم يروحي♥️🙈',
+'نعم يا قلب  '..Namebot..'',
+'عاوز اي من '..Namebot..'',
+'دوختو  '..Namebot..'',
+'انت تعرف انو بوت  '..Namebot..'  متنصب علي سورس لف🙈♥️',
+'بتشقط وجي ويت 🤪',
+'ايوا جاي 🙈',
+'يعم هتسحر واجي 😾',
+'طب متصلي على النبي كدا 🙂💜',
+'تع اشرب شاي 🥺💙',
+'دوس على الخوخه 🍑',
+'متيجي 😉',
+'ياض خش نام 😂',
+'انا '..Namebot..' احسن البوتات 🤩♥️',
+'نعم'
+} 
+Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)] 
+local msg_id = msg.id_/2097152/0.5  
+keyboard = {} 
+keyboard.inline_keyboard = {
+{
+{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?cocainetgroup=new"},
+},
+}
+local function getpro(extra, result, success) 
+if result.photos_[0] then 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo='..result.photos_[0].sizes_[1].photo_.persistent_id_..'&caption=' .. URL.escape(Namebot).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+else 
+send(msg.chat_id_, msg.id_,Namebot, 1, 'md') 
+end 
+end 
+tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
+end
+if text == "بوت" or text == 'البوت' then 
+local Namebot = (database:get(bot_id..'Name:Bot') or 'التوينز') 
+local DRAGON_Msg = { 
+' اي يروحي انا '..Namebot..'🥷🌚♥',
+'اسمي  '..Namebot..' يا قلبي 🙈💗',
 'اسمي '..Namebot..' يا روحي🙈❤️',
-'اسمي  '..Namebot..' يعمري🌚🌹',
-'اسمي  '..Namebot..' يا قمر 🐭🤍',
+'اسمي  '..Namebot..' يعمري🌚🍭',
+'اسمي  '..Namebot..' يا قمر 🌝🌸',
 'اسمي  '..Namebot..' يامزه 🥺❤️',
 'اسمي  '..Namebot..' يعم 😒',
 'مقولت اسمي '..Namebot..' في اي 🙄',
-'اسمي الكيوت '..Namebot..' 🌝💘',
-'اسمي  '..Namebot..' ياحياتي🧸♥️',
-'اسمي  '..Namebot..' يوتكه🙈🍑',
+'عيون البوت اسمي '..Namebot..' يعمري🥺❤️',
+'اسمي  '..Namebot..' ياحياتي🥺♥️',
+'اسمي  '..Namebot..' يوتكه🥺❤️',
+'انا '..Namebot..' ينوحي🙀🥺',
+} 
+Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)] 
+local msg_id = msg.id_/2097152/0.5  
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
 }
-
-Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)]
-local function getpro(extra, result, success)
-if result.photos_[0] then
-sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_,Namebot, msg.id_, msg.id_, "md")
-else
-send(msg.chat_id_, msg.id_,Namebot, 1, 'md')
-end
-end
-tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil)
+local function getpro(extra, result, success) 
+if result.photos_[0] then 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo='..result.photos_[0].sizes_[1].photo_.persistent_id_..'&caption=' .. URL.escape(Namebot).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+else 
+send(msg.chat_id_, msg.id_,Namebot, 1, 'md') 
+end 
+end 
+tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, limit_ = 1 }, getpro, nil) 
 end
 
 if text=="اذاعه خاص" and msg.reply_to_message_id_ == 0 and Sudo(msg) then 
@@ -12315,16 +12356,16 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/rmzyat_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == "ثيم" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
-ght = math.random(3,23); 
-local Text ='تم اختيار ثيم  لك' 
-keyboard = {}  
-keyboard.inline_keyboard = { 
+if text == "ثيم" then  
+ght = math.random(1,33);  
+local Text ='الستخدم ثيم اخر اكتب ثيم'  
+keyboard = {}   
+keyboard.inline_keyboard = {  
 {{text = 'ᴅᴇᴠ 𝚕𝚞𝚌𝚒𝚏𝚎𝚛', url="t.me/LLucifeerr"}}, 
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/senddocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/Document_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendDocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/Document_AV/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "كلمني" then
 rpl = {"ها هلاو","انطق","كول"};
