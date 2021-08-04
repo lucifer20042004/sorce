@@ -960,7 +960,7 @@ local keyboard = {
 {'جلب المطورين','جلب التوكن'},
 {'تحديث السورس ','الاصدار'},
 {'معلومات السيرفر'},
-{'• ━━━━━━❪ᴍᴇᴋᴏ🇮🇹❫━━━━━━ •'},
+{'• ━━━━━━❪𝘉𝘖𝘠𝘒𝘈 𝘈𝘓𝘌𝘟🇮🇹❫━━━━━━ •'},
 {'الغاء'},
 }
 send_inline_key(msg.chat_id_,bl,keyboard)
@@ -1313,7 +1313,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪??𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
 [𝙻𝚄𝙲𝙸𝙵𝙴𝚁🇮🇹](t.me/LLucifeerr)
 ]] 
@@ -1324,16 +1324,16 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == '• ━━━━━━❪ᴍᴇᴋᴏ🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
+if text == '• ━━━━━━❪𝘉𝘖𝘠𝘒𝘈 𝘈𝘓𝘌𝘟🇮🇹❫━━━━━━ •' and DevSoFi(msg) then
 local Text = [[ 
-[ᴍᴇᴋᴏ🇮🇹](t.me/DV_M_E_K_O_A4)
+[𝘉𝘖𝘠𝘒𝘈 𝘈𝘓𝘌𝘟🇮🇹](t.me/Boyka_alex)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'ᴍᴇᴋᴏ🇮🇹', url="t.me/DV_M_E_K_O_A4"}}, 
+{{text = '𝘉𝘖𝘠𝘒𝘈 𝘈𝘓𝘌𝘟🇮🇹', url="t.me/Boyka_alex"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/17&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/5&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -3048,6 +3048,18 @@ keyboard.inline_keyboard = {
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/13&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+end
+if text == 'بويكا or text == 'بويكا كبير اليكس or text == 'بويكا القامد or text == 'مبرمج السورس' or text =='نايكك الكل' or text == 'صاحب الابليكيشن' or text == 'مبرمج السورس' then
+local Text = [[
+المبرمج بـويـكـا الـقمـد لو حابب تتواصل معاه
+اتبع الزر إلى تحت ↓
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ',url="t.me/Boyka_alex"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/24&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == 'تواصل' or text == 'بوت التواصل' or text == 'التواصل' then
 local Text = [[
@@ -13814,7 +13826,7 @@ else
 username = 'لا يوجد '
 end
 if result.status_.ID == "UserStatusRecently" and result.profile_photo_ ~= false then
-sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, sofi.photos_[0].sizes_[1].photo_.persistent_id_,''..rdphoto..'\n¦• 𝚄𝚂𝙴𝚁 ↬  「'..username..'」     ↝💘\n¦• 𝙼𝚂𝙶𝚂↬  「'..Msguser..'」     ↝💘\n¦• 𝚁𝙰𝙽𝙺↬ 「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」     ↝💘\n¦• 𝙸𝙳↬   「'..msg.sender_user_id_..'」    ↝💘\n¦• 𝒄𝒉↬  「@SOURCE_WOOLF」     ↝💘\n')
+sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, sofi.photos_[0].sizes_[1].photo_.persistent_id_,''..rdphoto..'\n¦• 𝚄𝚂𝙴𝚁 ↬  「'..username..'」     ↝💘\n¦• 𝙼𝚂𝙶𝚂↬  「'..Msguser..'」     ↝💘\n¦• 𝚁𝙰𝙽𝙺↬ 「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」     ↝??\n¦• 𝙸𝙳↬   「'..msg.sender_user_id_..'」    ↝💘\n¦• 𝒄𝒉↬  「@SOURCE_WOOLF」     ↝💘\n')
 else 
 if result.status_.ID == "UserStatusEmpty" and result.profile_photo_ == false then
 send(msg.chat_id_, msg.id_,'[\n ¦✙ بيك عزيزي 「'..Name..'」 \n¦• 𝚄𝚂𝙴𝚁 ↬  「'..Name..'」    ↝💘\n¦• 𝙼𝚂𝙶𝚂↬ 「'..Msguser..'」.   ↝💘\n ¦• 𝚁𝙰𝙽𝙺↬ 「'..Rutba(msg.sender_user_id_,msg.chat_id_)..'」    ↝💘\n¦• 𝙸𝙳↬  「'..msg.sender_user_id_..'」    ↝💘\n¦• 𝒄𝒉↬   「@SOURCE_WOOLF」 ↝🇧??\n')
