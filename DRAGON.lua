@@ -11660,7 +11660,7 @@ Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)]
 local msg_id = msg.id_/2097152/0.5  
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+{{text = 'ѕᴏụʀᴄᴇ ᴡᴏʟғ', url="SOURCE_WOOLF"}},
 }
 local function getpro(extra, result, success) 
 if result.photos_[0] then 
