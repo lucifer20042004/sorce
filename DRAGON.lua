@@ -3202,7 +3202,7 @@ local TWEET_Msg = {
 "اكله بحرف⇐س",
 "عصير بحرف⇐ت",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "ازكار" or text == "اذكار" then 
