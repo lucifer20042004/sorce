@@ -294,8 +294,8 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-elseif tonumber(user_id) == tonumber(1879324805) then
-var = 'ٲٲلبشمبرمج فؤدكٲٲٲ ♥'
+if tonumber(user_id) == tonumber(1879324805) then
+var = 'ٲٲلبشمبرمج فؤدكٲٲٲ'
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = 'DEV LUCIFER'
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -2752,7 +2752,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '｟ᴅᴇᴠ ᴠᴏᴅᴋᴀ 𖤍 ｠⌯',url="t.me/DV_Vo_Dk_A1"},{text = 'ᴅᴇᴠ 𝚕𝚞𝚌𝚒𝚏𝚎𝚛', url="t.me/LLucifeerr"}},
 {{text = '⌯｟T W A S O L 𖤍 ｠⌯',url="t.me/TWASOL7_bot"}},
-{{text = '⌯｟00'00｠⌯', url="t.me/avtt_sorce"}},
+{{text = '⌯｟00:00｠⌯', url="t.me/avtt_sorce"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/21&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2804,7 +2804,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '(YOUTUBE BOT),url="t.me/Ssociial_bot"}},
+{{text = '(YOUTUBE BOT)',url="t.me/Ssociial_bot"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3184,25 +3184,7 @@ local TWEET_Msg = {
 "لو خيروك | تاكل دبانه او صرور🙄?",
 "لو خيروك | تغير لون بشرتك ولا لون شعرك🙄?",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
-return false 
-end
-if text == "حروف" or text == "كلمات" then 
-local TWEET_Msg = { 
-"مدينة بحرف⇐أ",
-"جماد بحرف⇐م",
-"نبات بحرف⇐س",
-"دوله بحرف⇐ف",
-"طائر بحرف⇐ع",
-"منطقه فالبحر مشهوره بالكوارث بحرف⇐م",
-"فاكه بحرف⇐ف",
-"حيوان برمائي بحرف⇐ب",
-"حيوان مائي بحرف⇐د",
-"لعبه بحرف⇐ب",
-"اكله بحرف⇐س",
-"عصير بحرف⇐ت",
-} 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "ازكار" or text == "اذكار" then 
@@ -3331,7 +3313,7 @@ local Text = [[
 ]]
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐑𝐀𝐁𝐄𝐑𝐙 ', url="t.me/avtt_sorce"}}, 
+{{text = '𝔸𝕍𝔸𝕋𝔸ℝ ', url="t.me/avtt_sorce"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12045,7 +12027,7 @@ send(msg.chat_id_, msg.id_,'  🕸  ليس لدي صلاحية حظر المست
 return false  
 end
 if (data and data.code_ and data.code_ == 3) then 
-send(msg.chat_id_, msg.id_,'  🕸  البوت ليس ادمن يرجى ترقيتي !') 
+send(msg.chat_id_, msg.id_,'  ??  البوت ليس ادمن يرجى ترقيتي !') 
 return false  
 end
 if data and data.code_ and data.code_ == 400 and data.message_ == "USER_ADMIN_INVALID" then 
@@ -14537,7 +14519,7 @@ local Teext =[[
 🕸الفيديو
 🕸الانلاين
 🕸الدردشه
-•═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════•
+•═════•| ☩𝔸𝕍??𝕋𝔸ℝ ☩ |•═════•
 🕸التوجيه
 🕸الاغاني
 🕸الصوت
@@ -14870,7 +14852,7 @@ local Teext =[[
 🕸تفعيل الاشتراك الاجباري
 🕸مسح رساله الاشتراك
 🕸تغير رساله الاشتراك
-🕸تغير الاشتراك
+??تغير الاشتراك
 •═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════•
 🕸الاحصائيات
 🕸المشتركين
