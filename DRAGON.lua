@@ -2988,7 +2988,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙻𝚄𝙲𝙸𝙵𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝑚𝑒𝑘𝑜', url="t.me/DV_M_E_K_O_A4"}},
+{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/Boyka_alex"}},
 {{text = 'T W A S O L', url="t.me/TWASOL7_bot"},{text = '7𝗋𝖻𝗈𝗄𝖺', url="t.me/DvH7rboka_A3"}},
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
@@ -3002,7 +3002,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/DV_M_E_K_O_A4"}},
+{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁',url="t.me/LLucifeerr"},{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url="t.me/Boyka_alex"}},
 {{text = 'T W A S O L', url="t.me/TWASOL7_bot"},{text = '7𝗋𝖻𝗈𝗄𝖺', url="t.me/DvH7rboka_A3"}},
 {{text = '00:00', url="t.me/SOURCE_WOOLF"}},
 }
@@ -11628,7 +11628,7 @@ local msg_id = msg.id_/2097152/0.5
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'اضف البوت لمجموعتك 𖠕', url="http://t.me/"..sudos.UserName.."?cocainetgroup=new"},
+{text = 'اضف البوت لمجموعتك 𖠕', url="https://t.me/"..data.username_.."?startgroup=new"},
 },
 }
 local function getpro(extra, result, success) 
