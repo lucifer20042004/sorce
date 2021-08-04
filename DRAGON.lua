@@ -3280,6 +3280,7 @@ local TWEET_Msg = {
 send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
+
 if text == "اسعار  افتار" then 
 local TWEET_Msg = { 
 "((✭╭──── ● «𝔸𝕍𝔸𝕋𝔸ℝ » ● ────╮✭))",
@@ -12027,7 +12028,7 @@ send(msg.chat_id_, msg.id_,'  🕸  ليس لدي صلاحية حظر المست
 return false  
 end
 if (data and data.code_ and data.code_ == 3) then 
-send(msg.chat_id_, msg.id_,'  ??  البوت ليس ادمن يرجى ترقيتي !') 
+send(msg.chat_id_, msg.id_,'  🕸  البوت ليس ادمن يرجى ترقيتي !') 
 return false  
 end
 if data and data.code_ and data.code_ == 400 and data.message_ == "USER_ADMIN_INVALID" then 
